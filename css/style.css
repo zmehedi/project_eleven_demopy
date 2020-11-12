@@ -1,0 +1,319 @@
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  transition: all .2s ease; }
+
+.header {
+  background-image: url(../assets/asset\ 18.svg);
+  background-size: cover;
+  height: 800px;
+  max-width: 100%; }
+  .header .navbar ul li {
+    margin: 15px 15px;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 600; }
+    .header .navbar ul li .btn-custom {
+      padding: 10px 20px;
+      background-color: #F4B200;
+      color: #fff;
+      font-weight: 900;
+      border-radius: 30px; }
+      .header .navbar ul li .btn-custom:hover {
+        background-color: #030000;
+        transition: all .3s ease; }
+    .header .navbar ul li a {
+      color: #ffffff93; }
+      .header .navbar ul li a:hover {
+        color: #fff;
+        transition: all .3s ease; }
+  .header .col-lg-6 {
+    margin: 200px 0px; }
+  .header .context span {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #F4B200;
+    transition: all .3s ease; }
+  .header .context h6 {
+    display: inline;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff; }
+  .header .context h1 {
+    font-size: 55px;
+    color: #fff;
+    font-weight: 700; }
+  .header .context p {
+    margin-top: 15px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 45px; }
+  .header .context .btn {
+    padding: 15px 40px;
+    background-color: #fff;
+    border-radius: 30px;
+    color: #000;
+    font-weight: 800; }
+    .header .context .btn:hover {
+      background-color: #F4B200;
+      transition: all .3s ease; }
+  .header .context a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px; }
+    .header .context a:hover {
+      color: #fff;
+      transition: all .2s ease; }
+    .header .context a i {
+      color: #F4B200;
+      background-color: transparent; }
+  .header .context .ok:hover {
+    color: #F4B200; }
+
+.logo-section {
+  margin: 80px 0; }
+  .logo-section .logos img {
+    margin: 0px 42px;
+    height: 50px; }
+
+.review-section {
+  padding: 100px 0;
+  background-color: #F8F9FC; }
+  .review-section .review-text h5 {
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 800;
+    margin-bottom: 40px;
+    text-transform: uppercase; }
+  .review-section .review-text h2 {
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: capitalize;
+    text-align: justify;
+    margin-right: 10px;
+    margin-bottom: 60px; }
+  .review-section .review-text .nameStudent {
+    text-transform: uppercase; }
+    .review-section .review-text .nameStudent h4 {
+      font-size: 14px;
+      letter-spacing: 2px;
+      font-weight: 800;
+      margin-bottom: 40px;
+      text-transform: uppercase;
+      margin-bottom: 0px; }
+    .review-section .review-text .nameStudent b {
+      font-size: 12px; }
+  .review-section .review-text a {
+    margin-top: 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #F4B200; }
+    .review-section .review-text a:hover {
+      color: #000; }
+
+.courses {
+  margin: 100px 0; }
+  .courses img {
+    border-radius: 12px;
+    height: 450px;
+    width: 100%; }
+  .courses .course-text {
+    margin: 0px 30px; }
+    .courses .course-text span {
+      height: 10px;
+      width: 10px;
+      border-radius: 50%;
+      background-color: #F4B200;
+      transition: all .3s ease; }
+    .courses .course-text h6 {
+      letter-spacing: 3px;
+      font-size: 14px;
+      font-weight: 600;
+      text-transform: uppercase;
+      color: #000;
+      margin-bottom: 35px; }
+    .courses .course-text h3 {
+      font-size: 45px;
+      font-weight: 700; }
+    .courses .course-text h5 {
+      font-size: 22px;
+      margin: 25px 0; }
+    .courses .course-text .row .icons i {
+      color: #0262C8;
+      margin-top: 20px; }
+    .courses .course-text a {
+      padding: 12px 35px;
+      color: #fff;
+      background-color: #0262C8;
+      border-radius: 30px;
+      text-transform: capitalize;
+      font-weight: 800;
+      font-size: 16px;
+      margin-top: 50px; }
+      .courses .course-text a:hover {
+        background-color: #F4B200; }
+
+.stuffs {
+  padding: 130px 0;
+  background-color: #F8F9FC;
+  margin: 0 0px; }
+  .stuffs .boxs {
+    border: 1px solid #fff;
+    box-shadow: 0px 4px 3px #fff;
+    padding: 2px 0px; }
+    .stuffs .boxs img {
+      border-radius: 12px; }
+    .stuffs .boxs h6 {
+      margin: 30px 30px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 13px; }
+    .stuffs .boxs h4 {
+      font-size: 18px;
+      margin: 30px 30px;
+      text-transform: capitalize;
+      font-weight: 800;
+      letter-spacing: 1px; }
+    .stuffs .boxs .row .box-icon {
+      margin: 0px 30px; }
+      .stuffs .boxs .row .box-icon b {
+        color: rgba(0, 0, 0, 0.534); }
+      .stuffs .boxs .row .box-icon .active {
+        color: #F4B200; }
+    .stuffs .boxs .row .box-icon2 {
+      margin-bottom: 30px; }
+      .stuffs .boxs .row .box-icon2 b {
+        color: rgba(0, 0, 0, 0.534); }
+      .stuffs .boxs .row .box-icon2 i {
+        color: rgba(0, 0, 0, 0.534); }
+
+.access {
+  background-image: url(../assets/asset\ 22.svg);
+  height: 500px;
+  max-width: 100%;
+  background-size: cover; }
+  .access .access-text {
+    text-align: center;
+    padding: 160px; }
+    .access .access-text h6 {
+      color: #F4B200;
+      letter-spacing: 3px;
+      font-weight: 800;
+      font-size: 13px;
+      text-transform: uppercase; }
+    .access .access-text h2 {
+      font-size: 58px;
+      color: #fff;
+      text-transform: capitalize;
+      font-weight: 700;
+      margin: 25px 0; }
+    .access .access-text p {
+      font-size: 16px;
+      color: #fff;
+      text-transform: capitalize;
+      font-weight: 500;
+      margin: 25px 0; }
+    .access .access-text a {
+      padding: 13px 30px;
+      background-color: #fff;
+      color: #000;
+      border-radius: 30px;
+      margin: 15px 0;
+      text-transform: capitalize;
+      font-weight: 800;
+      letter-spacing: 2px;
+      font-size: 14px; }
+      .access .access-text a:hover {
+        background-color: #F4B200;
+        color: #fff; }
+
+.testmoinal {
+  padding: 100px 0;
+  background-color: #FCFCFC; }
+  .testmoinal h6 {
+    color: #F4B200;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px; }
+  .testmoinal h2 {
+    font-size: 45px;
+    margin-top: 15px;
+    font-weight: 600;
+    text-transform: capitalize; }
+  .testmoinal a {
+    margin-bottom: 100px;
+    padding: 10px 30px;
+    color: #0262C8;
+    border: 1px solid #0262C8;
+    border-radius: 30px;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 900; }
+    .testmoinal a:hover {
+      background-color: #F4B200;
+      border: 1px solid #F4B200;
+      color: #fff; }
+  .testmoinal .box {
+    border: 1px solid #FFFFFF;
+    padding: 3px;
+    box-shadow: 0px 3px 3px #FCFCFC; }
+    .testmoinal .box img {
+      margin: 25px 0; }
+    .testmoinal .box h4 {
+      color: #000;
+      font-size: 19px;
+      margin: 15px 0; }
+    .testmoinal .box h6 {
+      color: #000;
+      letter-spacing: 0; }
+
+.footer-section {
+  background-color: #030000;
+  padding-top: 100px; }
+  .footer-section .head p {
+    font-size: 15px;
+    margin: 40px 0;
+    color: #fff; }
+  .footer-section .icons {
+    margin: 20px 0; }
+    .footer-section .icons i {
+      margin: 45px 10px;
+      margin-left: 20px;
+      font-size: 18px;
+      color: #fff; }
+      .footer-section .icons i:hover {
+        color: #0262C8; }
+  .footer-section .main {
+    text-transform: capitalize;
+    font-size: 22px;
+    color: #fff;
+    font-weight: 900; }
+  .footer-section .obj {
+    margin: 40px 0; }
+    .footer-section .obj li {
+      margin: 10px 0; }
+      .footer-section .obj li a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 15px;
+        font-weight: 400;
+        text-transform: capitalize; }
+  .footer-section .objt {
+    margin: 60px 0; }
+  .footer-section .last {
+    border-top: 1px solid #fff; }
+    .footer-section .last .text {
+      margin: 50px 0; }
+      .footer-section .last .text h5 {
+        font-size: 15px;
+        color: #fff; }
+
+/*# sourceMappingURL=style.css.map */
